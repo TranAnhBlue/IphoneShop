@@ -1,0 +1,56 @@
+.nav-item-custom {
+    font-weight: 500;
+    color: #0d6efd !important;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-item-custom:hover {
+    color: #0a58ca !important;
+  }
+  
+  .navbar-brand {
+    font-size: 1.6rem;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .shadow-sm {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1) !important;
+  }
+  
+  button {
+    transition: all 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0d6efd;
+    color: white;
+  }
+
+  .card {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card img {
+    object-fit: cover;
+    max-height: 300px;
+}
+
+.text-primary {
+    color: #007bff !important;
+}
+
+.text-success {
+    color: #28a745 !important;
+}
+
+.text-danger {
+    color: #dc3545 !important;
+}
+
+.container {
+    max-width: 1200px;
+}
+
