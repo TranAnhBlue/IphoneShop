@@ -6,9 +6,10 @@ import StaffDashboard from '../components/StaffDashboard';
 import UserDashboard from '../components/UserDashboard';
 import { AuthenContext } from '../context/AuthenContext';
 import ProductList from '../components/ProductList';
+import Admin from '../components/Admin';
 
 const Management = () => {
-  const { role } = useContextxt(AuthenContext);
+  const { role } = useContext(AuthenContext);
   
   const renderContent = () => {
     switch(role) {
